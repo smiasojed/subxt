@@ -58,5 +58,5 @@ pub use self::{
         generate_runtime_api_from_url, RuntimeGenerator,
     },
     error::{CodegenError, TypeSubstitutionError},
-    types::{CratePath, Derives, DerivesRegistry, Module, TypeGenerator, TypeSubstitutes},
+    types::{CratePath, Derives, DerivesRegistry, Module, TypeGenerator, TypeSubstitutes, AbsolutePath},
 };
